@@ -2,7 +2,7 @@
 
 A generic GriefPrevention addon project.
 Includes GriefPrevention's default editor style settings, Dependabot/Appveyor configurations, release-drafter workflow,
-and workflows to automatically merge Dependabot submissions that compile (assuming Appveyor is set up externally as well).
+and workflows to automatically merge Dependabot submissions that pass checks.
 
 ## Usage
 * Edit `./scripts/setup.properties`
@@ -10,6 +10,10 @@ and workflows to automatically merge Dependabot submissions that compile (assumi
 * Delete `./scripts/`
 
 ## Installation
+### Automatic
+Click [here](https://github.com/GPAddons/GenericAddon/generate) to clone this template.
+
+### Manual installation
 * Download source or clone
   * If cloned, delete git data
 * Set up new project
